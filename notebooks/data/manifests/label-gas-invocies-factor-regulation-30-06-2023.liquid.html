@@ -1,0 +1,62 @@
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+<crowd-form>
+  <crowd-bounding-box
+    name="boundingBox"
+    src="{{ task.input.taskObject | grant_read_access }}"
+    header="Highlight the entities with bounding boxes"
+    
+    labels="{{ task.input.labels | to_json | escape }}"
+  >
+
+    <full-instructions header="Bounding box instructions">
+<p>Use the bounding box tool to highlight <em>all instances</em> of the listed
+entity types on the page.</p>
+
+<p>Overlapping boxes of the same type are consolidated to a single object by the
+model: So you can use this pattern to highlight <em>non-rectangular regions</em>
+(such as specific multi-line sentences in a paragraph); and should <em>avoid</em>
+overlapping same-class boxes where the two regions are semantically separate.</p>
+<h3>Per-Field Guidance</h3>
+<h4>cups</h4>
+cups
+<h4>importe_total</h4>
+importe_total
+<h4>fecha_inicio</h4>
+fecha_inicio
+<h4>fecha_fin</h4>
+fecha_fin
+<h4>numero_factura</h4>
+numero_factura
+<h4>iva</h4>
+iva
+<h4>base_imponible</h4>
+base_imponible
+<h4>importe_alquiler_distribuidora</h4>
+importe_alquiler_distribuidora
+<h4>fecha_factura</h4>
+fecha_factura
+<h4>importe_termino_fijo</h4>
+importe_termino_fijo
+<h4>importe_termino_variable</h4>
+importe_termino_variable
+<h4>importe_producto</h4>
+importe_producto
+<h4>consumo_total</h4>
+consumo_total
+<h4>impuesto_hidrocarburo</h4>
+impuesto_hidrocarburo
+<h4>qd</h4>
+qd
+<h4>importe_coste_energia</h4>
+importe_coste_energia
+<h4>importe_cuota_cnmc</h4>
+importe_cuota_cnmc
+<h4>importe_cuota_gts</h4>
+importe_cuota_gts
+<h4>importe_regulaciones_contrato</h4>
+importe_regulaciones_contrato</full-instructions>
+  
+    <short-instructions>Draw bounding boxes to highlight all instances of the listed entity types. Use overlapping boxes of the same type to highlight contiguous, non-square regions. See the full instructions for more details.</short-instructions>
+  
+  </crowd-bounding-box>
+</crowd-form>

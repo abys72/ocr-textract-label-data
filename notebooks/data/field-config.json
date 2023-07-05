@@ -1,0 +1,135 @@
+[
+  {
+    "ClassId": 0,
+    "Name": "cups",
+    "Optional": true,
+    "AnnotationGuidance": "cups",
+    "Select": "first"
+  },
+  {
+    "ClassId": 1,
+    "Name": "importe_total",
+    "Optional": true,
+    "AnnotationGuidance": "importe_total",
+    "Select": "confidence"
+  },
+  {
+    "ClassId": 2,
+    "Name": "fecha_inicio",
+    "Optional": true,
+    "AnnotationGuidance": "fecha_inicio",
+    "Select": "confidence"
+  },
+  {
+    "ClassId": 3,
+    "Name": "fecha_fin",
+    "Optional": true,
+    "AnnotationGuidance": "fecha_fin",
+    "Select": "confidence"
+  },
+  {
+    "ClassId": 4,
+    "Name": "numero_factura",
+    "Optional": true,
+    "AnnotationGuidance": "numero_factura",
+    "Select": "confidence"
+  },
+  {
+    "ClassId": 5,
+    "Name": "iva",
+    "Optional": true,
+    "AnnotationGuidance": "iva",
+    "Select": "confidence"
+  },
+  {
+    "ClassId": 6,
+    "Name": "base_imponible",
+    "Optional": true,
+    "AnnotationGuidance": "base_imponible",
+    "Select": "confidence"
+  },
+  {
+    "ClassId": 7,
+    "Name": "importe_alquiler_distribuidora",
+    "Optional": true,
+    "AnnotationGuidance": "importe_alquiler_distribuidora",
+    "Select": "confidence"
+  },
+  {
+    "ClassId": 8,
+    "Name": "fecha_factura",
+    "Optional": true,
+    "AnnotationGuidance": "fecha_factura",
+    "Select": "confidence"
+  },
+  {
+    "ClassId": 9,
+    "Name": "importe_termino_fijo",
+    "Optional": true,
+    "AnnotationGuidance": "importe_termino_fijo",
+    "Select": "confidence"
+  },
+  {
+    "ClassId": 10,
+    "Name": "importe_termino_variable",
+    "Optional": true,
+    "AnnotationGuidance": "importe_termino_variable",
+    "Select": "confidence"
+  },
+  {
+    "ClassId": 11,
+    "Name": "importe_producto",
+    "Optional": true,
+    "AnnotationGuidance": "importe_producto",
+    "Select": "confidence"
+  },
+  {
+    "ClassId": 12,
+    "Name": "consumo_total",
+    "Optional": true,
+    "AnnotationGuidance": "consumo_total",
+    "Select": "confidence"
+  },
+  {
+    "ClassId": 13,
+    "Name": "impuesto_hidrocarburo",
+    "Optional": true,
+    "AnnotationGuidance": "impuesto_hidrocarburo",
+    "Select": "confidence"
+  },
+  {
+    "ClassId": 14,
+    "Name": "qd",
+    "Optional": true,
+    "AnnotationGuidance": "qd",
+    "Select": "confidence"
+  },
+  {
+    "ClassId": 15,
+    "Name": "importe_coste_energia",
+    "Optional": true,
+    "AnnotationGuidance": "importe_coste_energia",
+    "Select": "confidence"
+  },
+  {
+    "ClassId": 16,
+    "Name": "importe_cuota_cnmc",
+    "Optional": true,
+    "AnnotationGuidance": "importe_cuota_cnmc",
+    "Select": "confidence"
+  },
+  {
+    "ClassId": 17,
+    "Name": "importe_cuota_gts",
+    "Optional": true,
+    "AnnotationGuidance": "importe_cuota_gts",
+    "Select": "confidence"
+  },
+  {
+    "ClassId": 18,
+    "Name": "importe_regulaciones_contrato",
+    "Optional": true,
+    "AnnotationGuidance": "importe_regulaciones_contrato",
+    "Select": "confidence"
+  }
+]

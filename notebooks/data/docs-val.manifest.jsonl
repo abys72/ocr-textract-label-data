@@ -1,0 +1,10 @@
+{"textract-ref": "s3://sagemaker-eu-west-1-031061601856/textract-transformers/data/textracted/DICIEMBRE_FACTOR_ES0217901000002665AT.pdf/consolidated.json"}
+{"textract-ref": "s3://grupotrebolenergia-ocr-invoices-bucket/textract-transformers/data/textracted/MARZO_VATNOVA_ES0218030000540101VE.pdf/consolidated.json"}
+{"textract-ref": "s3://grupotrebolenergia-ocr-invoices-bucket/textract-transformers/data/textracted/MARZO_VATNOVA_ES0218901000024779GR_2302_3003.pdf/consolidated.json"}
+{"textract-ref": "s3://sagemaker-eu-west-1-031061601856/textract-transformers/data/textracted/FEBRERO_FACTOR_ES0217901000012746GF.pdf/consolidated.json"}
+{"textract-ref": "s3://sagemaker-eu-west-1-031061601856/textract-transformers/data/textracted/DICIEMBRE_FACTOR_ ES0217901000012751GN-Copy1.pdf/consolidated.json"}
+{"textract-ref": "s3://grupotrebolenergia-ocr-invoices-bucket/textract-transformers/data/textracted/ENERO_VATNOVA_ES0230010000099309RB_01_2301.pdf/consolidated.json"}
+{"textract-ref": "s3://grupotrebolenergia-ocr-invoices-bucket/textract-transformers/data/textracted/ENERO_VATNOVA_ES0222902000028617JR_06_24.pdf/consolidated.json"}
+{"textract-ref": "s3://sagemaker-eu-west-1-031061601856/textract-transformers/data/textracted/MARZO_FACTOR_ES0217901000012751GN-Copy1.pdf/consolidated.json"}
+{"textract-ref": "s3://grupotrebolenergia-ocr-invoices-bucket/textract-transformers/data/textracted/MAYO_VATNOVA_ES0217901000001923QV_25042023-25052023.pdf/consolidated.json"}
+{"textract-ref": "s3://grupotrebolenergia-ocr-invoices-bucket/textract-transformers/data/textracted/ABRIL_VATNOVA_ES0230010000099309RB_1603_1904.pdf/consolidated.json"}
